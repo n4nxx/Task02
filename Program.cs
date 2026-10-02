@@ -65,7 +65,7 @@ else if (opcion == "2")
     double minGrade = grades.Min();
     double averageGrade = grades.Average();
 
-    // Mostramos la información
+    
     Console.WriteLine("\n--- Summary of Grades ---");
     Console.WriteLine($"Highest grade: {maxGrade}");
     Console.WriteLine($"Lowest grade: {minGrade}");
